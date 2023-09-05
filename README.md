@@ -5,4 +5,5 @@
 <li>Car control with live camera</li>
 <br>
 <h5>You can control the vehicles from the phone with the applications I made in my Car-Apps project.</h5>
- <a href="https://github.com/olcaykoyuturk?tab=repositories">Car-Apps Project: Link</a>
+ <a href="https://github.com/olcaykoyuturk/esp32-bt-controller-apk">BT CONTROLLER</a>
+ <a href="https://github.com/olcaykoyuturk/esp32cam-controller-apk">CAM CAR CONTROLLER</a>
