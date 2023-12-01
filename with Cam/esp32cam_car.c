@@ -1,22 +1,14 @@
-//A Code For SPY Robo Car From Sayan Electronics
-//ESP32-Cam Live Surveillance Robo Car
-
 #include "esp_camera.h"
 #include <WiFi.h>
 
-//
-// WARNING!!! Make sure that you have either selected ESP32 Wrover Module,
-//            or another board which has PSRAM enabled
-//
-// Adafruit ESP32 Feather
 
 // Select camera model
 //#define CAMERA_MODEL_WROVER_KIT
 //#define CAMERA_MODEL_M5STACK_PSRAM
 #define CAMERA_MODEL_AI_THINKER
 
-const char* ssid = "REDLINE";   //Enter SSID WIFI Name
-const char* password = "Trabzon28";   //Enter WIFI Password
+const char* ssid = "";   //Enter SSID WIFI Name
+const char* password = "";   //Enter WIFI Password
 
 
 #if defined(CAMERA_MODEL_WROVER_KIT)
